@@ -1,4 +1,4 @@
-#Pystronomical
+# Pystronomical
 
 As a keen astrophile, I am developing a website for all my fellow sky enthusiasts out there.
 This files are the fundamental bricks that will compose the website UI.
