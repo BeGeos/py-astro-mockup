@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <navbar>
+      <div class="nav">
+        <div class="nav-logo">
+          <img src="img/Logo.svg" alt="Logo" height="70" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="how-to.html">How to Observe</a></li>
+            <li><a href="api.html">API</a></li>
+          </ul>
+        </div>
+        <div class="nav-user">
+          <ul>
+            <li><a class="login-user" href="login.html">Login</a></li>
+            <li><a class="sign-up" href="signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+    <main class="profile">
+      <div class="sidebar">
+        <div class="sidebar-menu">
+          <h2><i>Account</i></h2>
+          <ul>
+            <li><a href="#">Confirm Account</a></li>
+            <li><a href="change-password.html">Change Password</a></li>
+            <li><a href="change-email.html">Change Email Address</a></li>
+            <li><a href="main-profile.html">API key</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="central-menu">
+        <div class="central-info">
+          <h1>Confirm Account</h1>
+          <div class="confirm-form">
+            <form method="POST">
+              <input
+                type="text"
+                name="security code"
+                id="security code"
+                placeholder="6-digit-code"
+              />
+              <button type="submit">Verify</button>
+            </form>
+          </div>
+
+          <div class="central-description">
+            <small>
+              Please enter the 6-digit verification code that was sent to your
+              email address. Once confirmed, you will be able to create an api
+              key. If you haven’t received any code, please verify that you
+              provided the correct email address or click here for a new
+              verification code:
+              <a href="">Request New Code</a>
+            </small>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="user-stats">
+        <h1>
+          Hey <bold><i>BeGeos</i></bold>
+        </h1>
+        <p>It's good to see you are back!</p>
+        <h3>
+          <bold>Username: <br /></bold>BeGeos
+        </h3>
+        <h3>
+          <bold>Email Address: <br /></bold>mail.com
+        </h3>
+        <h3>
+          <bold>Confirmed: <br /></bold>Yes
+        </h3>
+        <h3>
+          <bold>Created at: <br /></bold>20/12/20
+        </h3>
+      </div>
+      <!-- <div class="profile-svg">
+        <img src="img/user-profile.svg" alt="user-account" height="300" />
+      </div> -->
+    </main>
+    <footer class="login-footer">
+      <div class="bottom-footer">
+        <div class="resources">
+          <p>@Pystronomical</p>
+
+          <a href="">Resources</a>
+        </div>
+        <div class="top-footer">
+          <a href=""><img src="img/twitter.svg" height="23" /></a>
+          <a href=""><img src="img/github.svg" alt="@BeGeos" height="23" /></a>
+          <a href=""
+            ><img src="img/facebook.svg" alt="@BeGeos" height="23"
+          /></a>
+          <a href=""
+            ><img src="img/instagram.svg" alt="@BeGeos" height="23"
+          /></a>
+          <a href=""><img src="img/youtube.svg" alt="@BeGeos" height="23" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
