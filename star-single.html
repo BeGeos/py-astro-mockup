@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style.css" />
@@ -76,18 +76,75 @@
               </button>
             </form>
             <div class="where-to-data">
-              <small
+              <!-- <small
                 >Based on latitude and longitude, a star can be found in the sky
                 using the principles of right ascension and declination. You
                 could enter a city and discover where to point your telescope
                 from that location.
-              </small>
+              </small> -->
+              <div class="city-data">
+                <h3>New York</h3>
+                <small
+                  ><img src="img/arrow-up.svg" height="15" /><img
+                    src="img/sun-fill.svg"
+                    height="15"
+                  />
+                  8:35</small
+                >
+                <small
+                  ><img src="img/arrow-down.svg" height="15" /><img
+                    src="img/sun-fill.svg"
+                    height="15"
+                  />17:45</small
+                >
+              </div>
+
               <div class="weather">
-                first
-                <hr />
-                second
-                <hr />
-                third
+                <div class="weather-card">
+                  <img src="http://openweathermap.org/img/wn/01n.png" />
+                  <div class="time-card">
+                    <p>10 PM</p>
+                    <small>Vis: 80%</small>
+                  </div>
+                </div>
+                <div class="weather-card">
+                  <img src="http://openweathermap.org/img/wn/02n.png" />
+                  <div class="time-card">
+                    <p>12 PM</p>
+                    <small>Vis: 35%</small>
+                  </div>
+                </div>
+                <div class="weather-card">
+                  <img src="http://openweathermap.org/img/wn/02n.png" />
+                  <div class="time-card">
+                    <p>2 AM</p>
+                    <small>Vis: 65%</small>
+                  </div>
+                </div>
+                <div class="weather-card">
+                  <img src="http://openweathermap.org/img/wn/01n.png" />
+                  <div class="time-card">
+                    <p>4 AM</p>
+                    <small>Vis: 90%</small>
+                  </div>
+                </div>
+              </div>
+              <div class="star-data">
+                <div class="star-time">
+                  <h3><b>Polaris</b></h3>
+                  <small>
+                    <img src="img/arrow-up.svg" height="15" />
+                    <img src="img/star-fill.svg" height="15" />
+                    21:30
+                  </small>
+                  <small>
+                    <img src="img/star-fill.svg" height="15" />
+                    <img src="img/arrow-down.svg" height="15" />
+                    9:30
+                  </small>
+                </div>
+                <p><b>Current Right Ascension:</b> 23h 12m 23s</p>
+                <p><b>Where to look:</b> 11° to the North and 35° to East</p>
               </div>
             </div>
           </div>
